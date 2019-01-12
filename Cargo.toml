@@ -1,0 +1,20 @@
+[package]
+name = "meme"
+version = "0.1.0"
+authors = ["Kris <kristhesavage@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+rocket = "0.4.0-rc.1"
+rocket_cors = "0.4.0"
+multipart = "0.15.3"
+image = "0.20"
+imageproc="0.16"
+rusttype = "0.5.2"
+rand = "*"
+
+[dependencies.rocket_contrib]
+version = "0.4.0"
+default-features = false
+features = ["serve"]
+
